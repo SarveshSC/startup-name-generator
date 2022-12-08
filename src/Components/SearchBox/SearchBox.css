@@ -1,0 +1,18 @@
+.searchbox-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 10px;
+}
+
+.searchbox{
+    border-width: 0;
+    padding: 10px 15px;
+    font-size: 15px;
+    width: 25vw;
+    border-radius: 10px;
+}
+
+.searchbox:focus{
+    outline: 0;
+}
