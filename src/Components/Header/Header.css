@@ -1,15 +1,26 @@
-.head-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 60px;
+.head-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 60px;
 }
 
-.head-image{
-    width: 25vw;
+.head-image {
+  width: auto;
+  transition: max-width 10s, min-width 10s;
 }
 
-.head-text{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 15px 0;
+.head-image-expanded {
+  min-width: 23vw;
+  max-width: 25vw;
+}
+
+.head-image-minimised {
+  min-width: 12vw;
+  max-width: 14vw;
+}
+
+.head-text {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 15px 0;
 }
