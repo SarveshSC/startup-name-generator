@@ -7,17 +7,15 @@
 
 .head-image {
   width: auto;
-  transition: max-width 10s, min-width 10s;
+  transition: width 2s;
 }
 
 .head-image-expanded {
-  min-width: 23vw;
-  max-width: 25vw;
+  width: 25vw;
 }
 
 .head-image-minimised {
-  min-width: 12vw;
-  max-width: 14vw;
+  width: 14vw;
 }
 
 .head-text {

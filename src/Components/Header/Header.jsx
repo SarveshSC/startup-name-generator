@@ -5,12 +5,13 @@ import "./Header.css";
 const Header = ({ text }) => {
   return (
     <div className="head-container">
+      <h1 className="head-text">What thou Name?</h1>
       <img
         src={image}
-        className={`"head-image" ${text === "" ? "head-image-expanded" : "head-image-minimised"}`}
+        className={`"head-image" ${text.length > 0 ? "head-image-minimised" : "head-image-expanded"}`}
         alt="header"
       />
-      <h1 className="head-text">Name</h1>
+      <h3>Get Started with your million dollar idea!</h3>
     </div>
   );
 };

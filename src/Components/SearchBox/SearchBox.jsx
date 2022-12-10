@@ -1,10 +1,7 @@
 import React from "react";
 import "./SearchBox.css";
 
-function SearchBox({ setText }) {
-  const inputChangeHandler = (e) => {
-    setText(e.target.value);
-  };
+function SearchBox({ inputChangeHandler }) {
   return (
     <div className="searchbox-container">
       <input
