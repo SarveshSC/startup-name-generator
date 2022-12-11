@@ -13,10 +13,10 @@ function App() {
   
   const inputChangeHandler = (e) => {
     setText(e.target.value);
-    setnameInput(e.target.value ? name(text) : []);
+    setnameInput(e.target.value ? name(e.target.value) : []);
     // console.log(e.target.value);
-    // console.log(name(text));
   };
+  console.log(text);
 
     return (
       <div>
